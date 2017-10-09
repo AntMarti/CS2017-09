@@ -9,10 +9,22 @@ package by.it.sc03_evening_mon_fri.martinovich.lesson03;
 */
 class TaskA2 {
     public static void main(String[] args) {
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
+
+        print5Times("Я начинаю изучать Java!");
+        print5Times("Hello!");
+
+    }
+
+    private static void print5Times(String text) {
+        int linesPrinted = 0;
+
+        while (linesPrinted < 5) {
+            System.out.println(text);
+            linesPrinted = linesPrinted + 1;
+        }
+    }
+
+    private static int sqrt() {
+
     }
 }
