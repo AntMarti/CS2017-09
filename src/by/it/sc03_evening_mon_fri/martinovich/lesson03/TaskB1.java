@@ -14,5 +14,12 @@ Scanner sc=new Scanner(System.in);
 4. Программа должна выводить квадрат считанного числа.
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
+    Scanner sc=new Scanner(System.in);
+
+
+
+
 }
